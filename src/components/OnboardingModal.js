@@ -28,7 +28,7 @@ export default function OnboardingModal() {
                     👋
                 </div>
 
-                <h2 className="text-2xl font-bold text-gray-800 mb-2">Vítejte! (Welcome)</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-2">ようこそ! (Welcome)</h2>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                     This app is different.
                     <br /><br />

@@ -71,7 +71,7 @@
                 "type": "phrase",
                 "text": "コーヒーをお願いします。",
                 "translation": "Coffee, please.",
-                "pronunciation": "Koohii o onegaishimasu",
+                "pronunciation": "Koo-hii o o-ne-gai-shi-ma-su",
                 "audio_text": "コーヒーをお願いします",
                 "frame_id": "frame_1a",
                 "word_ids": [
@@ -84,7 +84,7 @@
                 "type": "phrase",
                 "text": "水をお願いします。",
                 "translation": "Water, please.",
-                "pronunciation": "Mizu o onegaishimasu",
+                "pronunciation": "Mi-zu o o-ne-gai-shi-ma-su",
                 "audio_text": "水をお願いします",
                 "frame_id": "frame_1a",
                 "word_ids": [
@@ -97,7 +97,7 @@
                 "type": "phrase",
                 "text": "お会計をお願いします。",
                 "translation": "The bill, please.",
-                "pronunciation": "Okaikei o onegaishimasu",
+                "pronunciation": "O-kai-kei o o-ne-gai-shi-ma-su",
                 "audio_text": "お会計をお願いします",
                 "frame_id": "frame_1a",
                 "tags": [
@@ -113,7 +113,7 @@
                 "type": "phrase",
                 "text": "私はトーマスです。",
                 "translation": "I am Thomas.",
-                "pronunciation": "Watashi wa Toomasu desu",
+                "pronunciation": "Wa-ta-shi wa Too-ma-su de-su",
                 "audio_text": "私はトーマスです",
                 "frame_id": "frame_1b",
                 "word_ids": [
@@ -126,7 +126,7 @@
                 "type": "phrase",
                 "text": "私はアンナです。",
                 "translation": "I am Anna.",
-                "pronunciation": "Watashi wa Anna desu",
+                "pronunciation": "Wa-ta-shi wa An-na de-su",
                 "audio_text": "私はアンナです",
                 "frame_id": "frame_1b",
                 "word_ids": [
@@ -139,7 +139,7 @@
                 "type": "phrase",
                 "text": "トーマスです。",
                 "translation": "I'm Thomas (Simple).",
-                "pronunciation": "Toomasu desu",
+                "pronunciation": "Too-ma-su de-su",
                 "audio_text": "トーマスです",
                 "frame_id": "frame_1b",
                 "tags": [
@@ -154,7 +154,7 @@
                 "type": "phrase",
                 "text": "私はピーターです。",
                 "translation": "I am Peter.",
-                "pronunciation": "Watashi wa Piitaa desu",
+                "pronunciation": "Wa-ta-shi wa Pii-taa de-su",
                 "audio_text": "私はピーターです",
                 "frame_id": "frame_1b",
                 "tags": [
@@ -170,7 +170,7 @@
                 "type": "phrase",
                 "text": "トイレはどこですか？",
                 "translation": "Where is the toilet?",
-                "pronunciation": "Toire wa doko desu ka?",
+                "pronunciation": "To-i-re wa do-ko de-su ka?",
                 "audio_text": "トイレはどこですか？",
                 "frame_id": "frame_1c",
                 "word_ids": [
@@ -184,7 +184,7 @@
                 "type": "phrase",
                 "text": "地下鉄はどこですか？",
                 "translation": "Where is the subway?",
-                "pronunciation": "Chikatetsu wa doko desu ka?",
+                "pronunciation": "Chi-ka-te-tsu wa do-ko de-su ka?",
                 "audio_text": "地下鉄はどこですか？",
                 "frame_id": "frame_1c",
                 "word_ids": [
@@ -198,7 +198,7 @@
                 "type": "phrase",
                 "text": "ホテルはどこですか？",
                 "translation": "Where is the hotel?",
-                "pronunciation": "Hoteru wa doko desu ka?",
+                "pronunciation": "Ho-te-ru wa do-ko de-su ka?",
                 "audio_text": "ホテルはどこですか？",
                 "frame_id": "frame_1c",
                 "word_ids": [
@@ -212,7 +212,7 @@
                 "type": "phrase",
                 "text": "日本語が少し話せます。",
                 "translation": "I speak a little Japanese.",
-                "pronunciation": "Nihongo ga sukoshi hanasemasu",
+                "pronunciation": "Ni-hon-go ga su-ko-shi ha-na-se-ma-su",
                 "audio_text": "日本語が少し話せます",
                 "frame_id": "frame_1d",
                 "tags": [
@@ -230,7 +230,7 @@
                 "type": "phrase",
                 "text": "英語が少し話せます。",
                 "translation": "I speak a little English.",
-                "pronunciation": "Eigo ga sukoshi hanasemasu",
+                "pronunciation": "Ei-go ga su-ko-shi ha-na-se-ma-su",
                 "audio_text": "英語が少し話せます",
                 "frame_id": "frame_1d",
                 "tags": [
@@ -246,7 +246,7 @@
                 "type": "phrase",
                 "text": "ドイツ語が少し話せます。",
                 "translation": "I speak a little German.",
-                "pronunciation": "Doitsugo ga sukoshi hanasemasu",
+                "pronunciation": "Do-i-tsu-go ga su-ko-shi ha-na-se-ma-su",
                 "audio_text": "ドイツ語が少し話せます",
                 "frame_id": "frame_1d",
                 "tags": [
@@ -262,7 +262,7 @@
                 "type": "phrase",
                 "text": "わかりません。",
                 "translation": "I don't understand.",
-                "pronunciation": "Wakarimasen",
+                "pronunciation": "Wa-ka-ri-ma-sen",
                 "audio_text": "わかりません",
                 "word_ids": [
                     "word_nerozumim"
@@ -273,7 +273,7 @@
                 "type": "phrase",
                 "text": "ありがとうございます。",
                 "translation": "Thank you.",
-                "pronunciation": "Arigatou gozaimasu",
+                "pronunciation": "A-ri-ga-tou go-zai-ma-su",
                 "audio_text": "ありがとうございます",
                 "word_ids": [
                     "word_dekuji"
@@ -284,82 +284,98 @@
             {
                 "id": "word_onegaishimasu",
                 "lemma": "お願いします",
-                "translation": "please"
+                "translation": "please",
+                "pronunciation": "O-ne-gai-shi-ma-su"
             },
             {
                 "id": "word_kava",
                 "lemma": "コーヒー",
-                "translation": "coffee"
+                "translation": "coffee",
+                "pronunciation": "Koo-hii"
             },
             {
                 "id": "word_voda",
                 "lemma": "水",
-                "translation": "water"
+                "translation": "water",
+                "pronunciation": "Mi-zu"
             },
             {
                 "id": "word_ucet",
                 "lemma": "お会計",
-                "translation": "bill/check"
+                "translation": "the bill",
+                "pronunciation": "O-kai-kei"
             },
             {
                 "id": "word_ja",
                 "lemma": "私",
-                "translation": "I"
+                "translation": "I",
+                "pronunciation": "Wa-ta-shi"
             },
             {
                 "id": "word_jsem",
-                "lemma": "です",
-                "translation": "am (to be)"
+                "lemma": "〜です",
+                "translation": "am / is / are",
+                "pronunciation": "De-su"
             },
             {
                 "id": "word_kde",
                 "lemma": "どこ",
-                "translation": "where"
+                "translation": "where",
+                "pronunciation": "Do-ko"
             },
             {
                 "id": "word_je",
-                "lemma": "ですか",
-                "translation": "is (to be)"
+                "lemma": "です",
+                "translation": "is",
+                "pronunciation": "De-su"
             },
             {
                 "id": "word_toaleta",
                 "lemma": "トイレ",
-                "translation": "toilet"
+                "translation": "toilet",
+                "pronunciation": "To-i-re"
             },
             {
                 "id": "word_metro",
                 "lemma": "地下鉄",
-                "translation": "metro"
+                "translation": "subway",
+                "pronunciation": "Chi-ka-te-tsu"
             },
             {
                 "id": "word_hotel",
                 "lemma": "ホテル",
-                "translation": "hotel"
+                "translation": "hotel",
+                "pronunciation": "Ho-te-ru"
             },
             {
                 "id": "word_nerozumim",
-                "lemma": "わかる",
-                "translation": "understand"
+                "lemma": "わかりません",
+                "translation": "don't understand",
+                "pronunciation": "Wa-ka-ri-ma-sen"
             },
             {
                 "id": "word_dekuji",
-                "lemma": "ありがとう",
-                "translation": "thank"
+                "lemma": "ありがとうございます",
+                "translation": "thank you",
+                "pronunciation": "A-ri-ga-tou"
             },
             {
                 "id": "word_mluvim",
-                "lemma": "話す",
-                "translation": "speak"
+                "lemma": "話せます",
+                "translation": "can speak",
+                "pronunciation": "Ha-na-se-ma-su"
             },
             {
                 "id": "word_trochu",
                 "lemma": "少し",
-                "translation": "a little"
+                "translation": "a little",
+                "pronunciation": "Su-ko-shi"
             },
             {
                 "id": "word_cesky",
                 "lemma": "日本語",
-                "translation": "Japanese"
+                "translation": "Japanese",
+                "pronunciation": "Ni-hon-go"
             }
         ]
     },
@@ -421,7 +437,7 @@
                 "type": "phrase",
                 "text": "ビールが欲しいです。",
                 "translation": "I want a beer.",
-                "pronunciation": "Biiru ga hoshii desu",
+                "pronunciation": "Bii-ru ga ho-shii de-su",
                 "audio_text": "ビールが欲しいです",
                 "frame_id": "frame_2a",
                 "word_ids": [
@@ -434,7 +450,7 @@
                 "type": "phrase",
                 "text": "水が欲しいです。",
                 "translation": "I want water.",
-                "pronunciation": "Mizu ga hoshii desu",
+                "pronunciation": "Mi-zu ga ho-shii de-su",
                 "audio_text": "水が欲しいです",
                 "frame_id": "frame_2a",
                 "word_ids": [
@@ -447,7 +463,7 @@
                 "type": "phrase",
                 "text": "チケットが欲しいです。",
                 "translation": "I want a ticket.",
-                "pronunciation": "Chiketto ga hoshii desu",
+                "pronunciation": "Chi-ket-to ga ho-shii de-su",
                 "audio_text": "チケットが欲しいです",
                 "frame_id": "frame_2a",
                 "word_ids": [
@@ -460,7 +476,7 @@
                 "type": "phrase",
                 "text": "助けが必要です。",
                 "translation": "I need help.",
-                "pronunciation": "Tasuke ga hitsuyou desu",
+                "pronunciation": "Ta-su-ke ga hi-tsu-you de-su",
                 "audio_text": "助けが必要です",
                 "frame_id": "frame_2b",
                 "word_ids": [
@@ -473,7 +489,7 @@
                 "type": "phrase",
                 "text": "チケットが必要です。",
                 "translation": "I need a ticket.",
-                "pronunciation": "Chiketto ga hitsuyou desu",
+                "pronunciation": "Chi-ket-to ga hi-tsu-you de-su",
                 "audio_text": "チケットが必要です",
                 "frame_id": "frame_2b",
                 "word_ids": [
@@ -486,7 +502,7 @@
                 "type": "phrase",
                 "text": "水が必要です。",
                 "translation": "I need water.",
-                "pronunciation": "Mizu ga hitsuyou desu",
+                "pronunciation": "Mi-zu ga hi-tsu-you de-su",
                 "audio_text": "水が必要です",
                 "frame_id": "frame_2b",
                 "tags": [
@@ -502,7 +518,7 @@
                 "type": "phrase",
                 "text": "ビールはいくらですか？",
                 "translation": "How much does the beer cost?",
-                "pronunciation": "Biiru wa ikura desu ka?",
+                "pronunciation": "Bii-ru wa i-ku-ra de-su ka?",
                 "audio_text": "ビールはいくらですか？",
                 "frame_id": "frame_2c",
                 "word_ids": [
@@ -515,7 +531,7 @@
                 "type": "phrase",
                 "text": "チケットはいくらですか？",
                 "translation": "How much does a ticket cost?",
-                "pronunciation": "Chiketto wa ikura desu ka?",
+                "pronunciation": "Chi-ket-to wa i-ku-ra de-su ka?",
                 "audio_text": "チケットはいくらですか？",
                 "frame_id": "frame_2c",
                 "word_ids": [
@@ -528,7 +544,7 @@
                 "type": "phrase",
                 "text": "水はいくらですか？",
                 "translation": "How much does water cost?",
-                "pronunciation": "Mizu wa ikura desu ka?",
+                "pronunciation": "Mi-zu wa i-ku-ra de-su ka?",
                 "audio_text": "水はいくらですか？",
                 "frame_id": "frame_2c",
                 "tags": [
@@ -544,37 +560,44 @@
             {
                 "id": "word_hoshii",
                 "lemma": "欲しい",
-                "translation": "want"
+                "translation": "want",
+                "pronunciation": "Ho-shii"
             },
             {
                 "id": "word_pivo",
                 "lemma": "ビール",
-                "translation": "beer"
+                "translation": "beer",
+                "pronunciation": "Bii-ru"
             },
             {
                 "id": "word_hitsuyou",
                 "lemma": "必要",
-                "translation": "need"
+                "translation": "need",
+                "pronunciation": "Hi-tsu-you"
             },
             {
                 "id": "word_pomoc",
                 "lemma": "助け",
-                "translation": "help"
+                "translation": "help",
+                "pronunciation": "Ta-su-ke"
             },
             {
                 "id": "word_listek",
                 "lemma": "チケット",
-                "translation": "ticket"
+                "translation": "ticket",
+                "pronunciation": "Chi-ket-to"
             },
             {
                 "id": "word_ikura",
                 "lemma": "いくら",
-                "translation": "how much"
+                "translation": "how much",
+                "pronunciation": "I-ku-ra"
             },
             {
                 "id": "word_voda",
                 "lemma": "水",
-                "translation": "water"
+                "translation": "water",
+                "pronunciation": "Mi-zu"
             }
         ]
     },
@@ -637,6 +660,7 @@
                 "text": "今日は働きます。",
                 "translation": "Today I am working.",
                 "audio_text": "今日は働きます",
+                "pronunciation": "Kyou wa ha-ta-ra-ki-ma-su",
                 "frame_id": "frame_3a",
                 "word_ids": [
                     "word_dnes",
@@ -649,6 +673,7 @@
                 "text": "今日は勉強します。",
                 "translation": "Today I am studying.",
                 "audio_text": "今日は勉強します",
+                "pronunciation": "Kyou wa ben-kyou-shi-ma-su",
                 "frame_id": "frame_3a",
                 "word_ids": [
                     "word_dnes",
@@ -661,6 +686,7 @@
                 "text": "今日は旅行します。",
                 "translation": "Today I am traveling.",
                 "audio_text": "今日は旅行します",
+                "pronunciation": "Kyou wa ryo-kou-shi-ma-su",
                 "frame_id": "frame_3a",
                 "tags": [
                     "example"
@@ -676,6 +702,7 @@
                 "text": "昨日は働きました。",
                 "translation": "Yesterday I worked.",
                 "audio_text": "昨日は働きました",
+                "pronunciation": "Ki-nou wa ha-ta-ra-ki-ma-shi-ta",
                 "frame_id": "frame_3b",
                 "word_ids": [
                     "word_vcera",
@@ -688,6 +715,7 @@
                 "text": "昨日は寝ました。",
                 "translation": "Yesterday I slept.",
                 "audio_text": "昨日は寝ました",
+                "pronunciation": "Ki-nou wa ne-ma-shi-ta",
                 "frame_id": "frame_3b",
                 "word_ids": [
                     "word_vcera",
@@ -700,6 +728,7 @@
                 "text": "昨日は旅行しました。",
                 "translation": "Yesterday I traveled.",
                 "audio_text": "昨日は旅行しました",
+                "pronunciation": "Ki-nou wa ryo-kou-shi-ma-shi-ta",
                 "frame_id": "frame_3b",
                 "tags": [
                     "example"
@@ -715,6 +744,7 @@
                 "text": "明日は働きます。",
                 "translation": "Tomorrow I will work.",
                 "audio_text": "明日は働きます",
+                "pronunciation": "A-shi-ta wa ha-ta-ra-ki-ma-su",
                 "frame_id": "frame_3c",
                 "word_ids": [
                     "word_zitra",
@@ -727,6 +757,7 @@
                 "text": "明日は旅行します。",
                 "translation": "Tomorrow I will travel.",
                 "audio_text": "明日は旅行します",
+                "pronunciation": "A-shi-ta wa ryo-kou-shi-ma-su",
                 "frame_id": "frame_3c",
                 "word_ids": [
                     "word_zitra",
@@ -739,6 +770,7 @@
                 "text": "明日は寝ます。",
                 "translation": "Tomorrow I will sleep.",
                 "audio_text": "明日は寝ます",
+                "pronunciation": "A-shi-ta wa ne-ma-su",
                 "frame_id": "frame_3c",
                 "tags": [
                     "example"
@@ -753,52 +785,62 @@
             {
                 "id": "word_dnes",
                 "lemma": "今日",
-                "translation": "today"
+                "translation": "today",
+                "pronunciation": "Kyou"
             },
             {
                 "id": "word_pracuji",
                 "lemma": "働きます",
-                "translation": "work"
+                "translation": "work",
+                "pronunciation": "Ha-ta-ra-ki-ma-su"
             },
             {
                 "id": "word_studuji",
                 "lemma": "勉強します",
-                "translation": "study"
+                "translation": "study",
+                "pronunciation": "Ben-kyou-shi-ma-su"
             },
             {
                 "id": "word_vcera",
                 "lemma": "昨日",
-                "translation": "yesterday"
+                "translation": "yesterday",
+                "pronunciation": "Ki-nou"
             },
             {
                 "id": "word_pracoval",
                 "lemma": "働きました",
-                "translation": "worked"
+                "translation": "worked",
+                "pronunciation": "Ha-ta-ra-ki-ma-shi-ta"
             },
             {
                 "id": "word_spal",
                 "lemma": "寝ました",
-                "translation": "slept"
+                "translation": "slept",
+                "pronunciation": "Ne-ma-shi-ta"
             },
             {
                 "id": "word_cestoval",
                 "lemma": "旅行しました",
-                "translation": "traveled"
+                "translation": "traveled",
+                "pronunciation": "Ryo-kou-shi-ma-shi-ta"
             },
             {
                 "id": "word_zitra",
                 "lemma": "明日",
-                "translation": "tomorrow"
+                "translation": "tomorrow",
+                "pronunciation": "A-shi-ta"
             },
             {
                 "id": "word_cestovat",
                 "lemma": "旅行します",
-                "translation": "travel"
+                "translation": "travel",
+                "pronunciation": "Ryo-kou-shi-ma-su"
             },
             {
                 "id": "word_spat",
                 "lemma": "寝ます",
-                "translation": "sleep"
+                "translation": "sleep",
+                "pronunciation": "Ne-ma-su"
             }
         ]
     },
@@ -846,6 +888,7 @@
                 "text": "それはいいと思います。",
                 "translation": "I think that it is good.",
                 "audio_text": "それはいいと思います",
+                "pronunciation": "So-re wa i-i to o-mo-i-ma-su",
                 "frame_id": "frame_4a",
                 "word_ids": [
                     "word_sore_wa_ii",
@@ -858,6 +901,7 @@
                 "text": "それは本当ではないと思います。",
                 "translation": "I think that it is not true.",
                 "audio_text": "それは本当ではないと思います",
+                "pronunciation": "So-re wa hon-tou de-wa na-i to o-mo-i-ma-su",
                 "frame_id": "frame_4a",
                 "word_ids": [
                     "word_sore_wa_hontou_dewa_nai",
@@ -870,6 +914,7 @@
                 "text": "それは問題だと思います。",
                 "translation": "I think that is a problem.",
                 "audio_text": "それは問題だと思います",
+                "pronunciation": "So-re wa mon-dai da to o-mo-i-ma-su",
                 "frame_id": "frame_4a",
                 "tags": [
                     "example"
@@ -885,6 +930,7 @@
                 "text": "働く必要があります。",
                 "translation": "I must work.",
                 "audio_text": "働く必要があります",
+                "pronunciation": "Ha-ta-ra-ku hi-tsu-you ga a-ri-ma-su",
                 "frame_id": "frame_4b",
                 "word_ids": [
                     "word_hataraku",
@@ -897,6 +943,7 @@
                 "text": "家に帰る必要があります。",
                 "translation": "I must go home.",
                 "audio_text": "家に帰る必要があります",
+                "pronunciation": "I-e ni ka-e-ru hi-tsu-you ga a-ri-ma-su",
                 "frame_id": "frame_4b",
                 "word_ids": [
                     "word_ie_ni_kaeru",
@@ -909,6 +956,7 @@
                 "text": "寝る必要があります。",
                 "translation": "I must sleep.",
                 "audio_text": "寝る必要があります",
+                "pronunciation": "Ne-ru hi-tsu-you ga a-ri-ma-su",
                 "frame_id": "frame_4b",
                 "tags": [
                     "example"
@@ -923,42 +971,50 @@
             {
                 "id": "word_to_omoimasu",
                 "lemma": "思います",
-                "translation": "think"
+                "translation": "think",
+                "pronunciation": "O-mo-i-ma-su"
             },
             {
                 "id": "word_sore_wa_ii",
                 "lemma": "それはいい",
-                "translation": "it is good"
+                "translation": "it is good",
+                "pronunciation": "So-re wa i-i"
             },
             {
                 "id": "word_sore_wa_hontou_dewa_nai",
                 "lemma": "それは本当ではない",
-                "translation": "it is not true"
+                "translation": "it is not true",
+                "pronunciation": "So-re wa hon-tou de-wa na-i"
             },
             {
                 "id": "word_sore_wa_mondai",
                 "lemma": "それは問題",
-                "translation": "it is a problem"
+                "translation": "it is a problem",
+                "pronunciation": "So-re wa mon-dai"
             },
             {
                 "id": "word_hitsuyou_ga_arimasu",
                 "lemma": "必要があります",
-                "translation": "need to/must"
+                "translation": "need to/must",
+                "pronunciation": "Hi-tsu-you ga a-ri-ma-su"
             },
             {
                 "id": "word_hataraku",
                 "lemma": "働く",
-                "translation": "work"
+                "translation": "work",
+                "pronunciation": "Ha-ta-ra-ku"
             },
             {
                 "id": "word_ie_ni_kaeru",
                 "lemma": "家に帰る",
-                "translation": "go home"
+                "translation": "go home",
+                "pronunciation": "I-e ni ka-e-ru"
             },
             {
                 "id": "word_neru",
                 "lemma": "寝る",
-                "translation": "sleep"
+                "translation": "sleep",
+                "pronunciation": "Ne-ru"
             }
         ]
     },
@@ -1018,6 +1074,7 @@
                 "text": "働いていますから。",
                 "translation": "Because I work.",
                 "audio_text": "働いていますから",
+                "pronunciation": "Ha-ta-ra-i-te-i-ru ka-ra",
                 "frame_id": "frame_5a",
                 "word_ids": [
                     "word_hataraiteiru",
@@ -1030,6 +1087,7 @@
                 "text": "時間がありませんから。",
                 "translation": "Because I don't have time.",
                 "audio_text": "時間がありませんから",
+                "pronunciation": "Ji-kan ga a-ri-ma-sen ka-ra",
                 "frame_id": "frame_5a",
                 "word_ids": [
                     "word_jikan_ga_arimasen",
@@ -1042,6 +1100,7 @@
                 "text": "コーヒーが好きです。",
                 "translation": "I like coffee.",
                 "audio_text": "コーヒーが好きです",
+                "pronunciation": "Koo-hii ga su-ki de-su",
                 "frame_id": "frame_5b",
                 "word_ids": [
                     "word_kava",
@@ -1054,6 +1113,7 @@
                 "text": "冬が好きではありません。",
                 "translation": "I don't like winter.",
                 "audio_text": "冬が好きではありません",
+                "pronunciation": "Fu-yu ga su-ki de-wa a-ri-ma-sen",
                 "frame_id": "frame_5b",
                 "word_ids": [
                     "word_fuyu",
@@ -1066,6 +1126,7 @@
                 "text": "時間がある時、寝ます。",
                 "translation": "When I have time, I sleep.",
                 "audio_text": "時間がある時、寝ます",
+                "pronunciation": "Ji-kan ga a-ru to-ki ne-ma-su",
                 "frame_id": "frame_5c",
                 "word_ids": [
                     "word_jikan_ga_aru",
@@ -1079,6 +1140,7 @@
                 "text": "働く時、来られません。",
                 "translation": "When I work, I can't come.",
                 "audio_text": "働く時、来られません",
+                "pronunciation": "Ha-ta-ra-ku to-ki ko-ra-re-ma-sen",
                 "frame_id": "frame_5c",
                 "word_ids": [
                     "word_hataraku",
@@ -1091,52 +1153,62 @@
             {
                 "id": "word_kara",
                 "lemma": "から",
-                "translation": "because"
+                "translation": "because",
+                "pronunciation": "Ka-ra"
             },
             {
                 "id": "word_suki_desu",
                 "lemma": "好きです",
-                "translation": "like"
+                "translation": "like",
+                "pronunciation": "Su-ki de-su"
             },
             {
                 "id": "word_suki_dewa_arimasen",
                 "lemma": "好きではありません",
-                "translation": "don't like"
+                "translation": "don't like",
+                "pronunciation": "Su-ki de-wa a-ri-ma-sen"
             },
             {
                 "id": "word_fuyu",
                 "lemma": "冬",
-                "translation": "winter"
+                "translation": "winter",
+                "pronunciation": "Fu-yu"
             },
             {
                 "id": "word_toki",
                 "lemma": "時",
-                "translation": "when/time"
+                "translation": "when/time",
+                "pronunciation": "To-ki"
             },
             {
                 "id": "word_jikan_ga_aru",
                 "lemma": "時間がある",
-                "translation": "have time"
+                "translation": "have time",
+                "pronunciation": "Ji-kan ga a-ru"
             },
             {
                 "id": "word_jikan_ga_arimasen",
                 "lemma": "時間がありません",
-                "translation": "don't have time"
+                "translation": "don't have time",
+                "pronunciation": "Ji-kan ga a-ri-ma-sen"
             },
             {
                 "id": "word_nemasu",
                 "lemma": "寝ます",
-                "translation": "sleep"
+                "translation": "sleep",
+                "pronunciation": "Ne-ma-su"
             },
             {
                 "id": "word_hataraiteiru",
                 "lemma": "働いています",
-                "translation": "working"
+                "translation": "working",
+                "pronunciation": "Ha-ta-ra-i-te-i-ru"
             },
             {
                 "id": "word_koraremasen",
                 "lemma": "来られません",
-                "translation": "cannot come"
+                "translation": "cannot come",
+                "pronunciation": "Ko-ra-re-ma-sen"
             }
         ]
     },
@@ -1195,6 +1267,7 @@
                 "text": "明日働く予定です。",
                 "translation": "I plan to work tomorrow.",
                 "audio_text": "明日働く予定です",
+                "pronunciation": "A-shi-ta ha-ta-ra-ku yo-tei de-su",
                 "frame_id": "frame_6a",
                 "word_ids": [
                     "word_zitra",
@@ -1208,6 +1281,7 @@
                 "text": "夕方来ることができます。",
                 "translation": "I can come in the evening.",
                 "audio_text": "夕方来ることができます",
+                "pronunciation": "Yuu-ga-ta ku-ru ko-to ga de-ki-ma-su",
                 "frame_id": "frame_6b",
                 "word_ids": [
                     "word_yuugata",
@@ -1220,6 +1294,7 @@
                 "text": "今日来ることができません。",
                 "translation": "I can't come today.",
                 "audio_text": "今日来ることができません",
+                "pronunciation": "Kyou ku-ru ko-to ga de-ki-ma-sen",
                 "frame_id": "frame_6b",
                 "word_ids": [
                     "word_dnes",
@@ -1232,6 +1307,7 @@
                 "text": "多分働きます。",
                 "translation": "Maybe I will work.",
                 "audio_text": "多分働きます",
+                "pronunciation": "Ta-bun ha-ta-ra-ki-ma-su",
                 "frame_id": "frame_6c",
                 "word_ids": [
                     "word_tabun",
@@ -1244,6 +1320,7 @@
                 "text": "多分時間がありません。",
                 "translation": "Maybe I don't have time.",
                 "audio_text": "多分時間がありません",
+                "pronunciation": "Ta-bun ji-kan ga a-ri-ma-sen",
                 "frame_id": "frame_6c",
                 "word_ids": [
                     "word_tabun",
@@ -1255,32 +1332,38 @@
             {
                 "id": "word_yotei_desu",
                 "lemma": "予定です",
-                "translation": "plan to"
+                "translation": "plan to",
+                "pronunciation": "Yo-tei de-su"
             },
             {
                 "id": "word_kuru_koto_ga_dekimasu",
                 "lemma": "来ることができます",
-                "translation": "can come"
+                "translation": "can come",
+                "pronunciation": "Ku-ru ko-to ga de-ki-ma-su"
             },
             {
                 "id": "word_kuru_koto_ga_dekimasen",
                 "lemma": "来ることができません",
-                "translation": "cannot come"
+                "translation": "cannot come",
+                "pronunciation": "Ku-ru ko-to ga de-ki-ma-sen"
             },
             {
                 "id": "word_yuugata",
                 "lemma": "夕方",
-                "translation": "evening"
+                "translation": "evening",
+                "pronunciation": "Yuu-ga-ta"
             },
             {
                 "id": "word_tabun",
                 "lemma": "多分",
-                "translation": "maybe"
+                "translation": "maybe",
+                "pronunciation": "Ta-bun"
             },
             {
                 "id": "word_hatarakimasu",
                 "lemma": "働きます",
-                "translation": "work"
+                "translation": "work",
+                "pronunciation": "Ha-ta-ra-ki-ma-su"
             }
         ]
     },
@@ -1315,6 +1398,7 @@
                 "text": "まず働きました。",
                 "translation": "First I worked.",
                 "audio_text": "まず働きました",
+                "pronunciation": "Ma-zu ha-ta-ra-ki-ma-shi-ta",
                 "frame_id": "frame_7a",
                 "word_ids": [
                     "word_mazu",
@@ -1327,6 +1411,7 @@
                 "text": "次に家に帰りました。",
                 "translation": "Then I went home.",
                 "audio_text": "次に家に帰りました",
+                "pronunciation": "Tsu-gi-ni i-e ni ka-e-ri-ma-shi-ta",
                 "frame_id": "frame_7a",
                 "word_ids": [
                     "word_tsugini",
@@ -1339,6 +1424,7 @@
                 "text": "最後に寝ました。",
                 "translation": "Finally I slept.",
                 "audio_text": "最後に寝ました",
+                "pronunciation": "Sai-go ni ne-ma-shi-ta",
                 "frame_id": "frame_7a",
                 "word_ids": [
                     "word_saigo_ni",
@@ -1350,32 +1436,38 @@
             {
                 "id": "word_mazu",
                 "lemma": "まず",
-                "translation": "first"
+                "translation": "first",
+                "pronunciation": "Ma-zu"
             },
             {
                 "id": "word_tsugini",
                 "lemma": "次に",
-                "translation": "then"
+                "translation": "then",
+                "pronunciation": "Tsu-gi-ni"
             },
             {
                 "id": "word_ie_ni_kaerimashita",
                 "lemma": "家に帰りました",
-                "translation": "went home"
+                "translation": "went home",
+                "pronunciation": "I-e ni ka-e-ri-ma-shi-ta"
             },
             {
                 "id": "word_saigo_ni",
                 "lemma": "最後に",
-                "translation": "finally"
+                "translation": "finally",
+                "pronunciation": "Sai-go ni"
             },
             {
                 "id": "word_hatarakimashita",
                 "lemma": "働きました",
-                "translation": "worked"
+                "translation": "worked",
+                "pronunciation": "Ha-ta-ra-ki-ma-shi-ta"
             },
             {
                 "id": "word_nemashita",
                 "lemma": "寝ました",
-                "translation": "slept"
+                "translation": "slept",
+                "pronunciation": "Ne-ma-shi-ta"
             }
         ]
     },
@@ -1420,6 +1512,7 @@
                 "text": "仕事に問題があります。",
                 "translation": "I have a problem with work.",
                 "audio_text": "仕事に問題があります",
+                "pronunciation": "Shi-go-to ni mon-dai ga a-ri-ma-su",
                 "frame_id": "frame_8a",
                 "word_ids": [
                     "word_shigoto",
@@ -1432,6 +1525,7 @@
                 "text": "ですから家で働く必要があります。",
                 "translation": "Therefore I must work at home.",
                 "audio_text": "ですから家で働く必要があります",
+                "pronunciation": "De-su-ka-ra i-e de ha-ta-ra-ku hi-tsu-you ga a-ri-ma-su",
                 "frame_id": "frame_8b",
                 "word_ids": [
                     "word_desukara",
@@ -1444,22 +1538,26 @@
             {
                 "id": "word_ni_mondai_ga_arimasu",
                 "lemma": "に問題があります",
-                "translation": "have a problem with"
+                "translation": "have a problem with",
+                "pronunciation": "Ni mon-dai ga a-ri-ma-su"
             },
             {
                 "id": "word_shigoto",
                 "lemma": "仕事",
-                "translation": "work"
+                "translation": "work",
+                "pronunciation": "Shi-go-to"
             },
             {
                 "id": "word_desukara",
                 "lemma": "ですから",
-                "translation": "therefore"
+                "translation": "therefore",
+                "pronunciation": "De-su-ka-ra"
             },
             {
                 "id": "word_ie_de_hataraku",
                 "lemma": "家で働く",
-                "translation": "work at home"
+                "translation": "work at home",
+                "pronunciation": "I-e de ha-ta-ra-ku"
             }
         ]
     },
@@ -1492,6 +1590,7 @@
                 "text": "私の意見では、それはいいです。",
                 "translation": "In my opinion, it's good.",
                 "audio_text": "私の意見では、それはいいです",
+                "pronunciation": "Wa-ta-shi no i-ken de-wa so-re wa i-i de-su",
                 "frame_id": "frame_9a",
                 "word_ids": [
                     "word_watashi_no_iken_dewa",
@@ -1503,12 +1602,14 @@
             {
                 "id": "word_watashi_no_iken_dewa",
                 "lemma": "私の意見では",
-                "translation": "in my opinion"
+                "translation": "in my opinion",
+                "pronunciation": "Wa-ta-shi no i-ken de-wa"
             },
             {
                 "id": "word_sore_wa_ii_desu",
                 "lemma": "それはいいです",
-                "translation": "it is good"
+                "translation": "it is good",
+                "pronunciation": "So-re wa i-i de-su"
             }
         ]
     },
@@ -1541,6 +1642,7 @@
                 "text": "それは時間がありませんという意味です。",
                 "translation": "That means that I don't have time.",
                 "audio_text": "それは時間がありませんという意味です",
+                "pronunciation": "So-re wa ji-kan ga a-ri-ma-sen to i-u i-mi de-su",
                 "frame_id": "frame_10a",
                 "word_ids": [
                     "word_sore_wa",
@@ -1553,12 +1655,14 @@
             {
                 "id": "word_sore_wa",
                 "lemma": "それは",
-                "translation": "that"
+                "translation": "that",
+                "pronunciation": "So-re wa"
             },
             {
                 "id": "word_to_iu_imi_desu",
                 "lemma": "という意味です",
-                "translation": "means"
+                "translation": "means",
+                "pronunciation": "To i-u i-mi de-su"
             }
         ]
     }

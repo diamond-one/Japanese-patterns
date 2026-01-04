@@ -60,7 +60,7 @@ export default function Flashcard({ card, supportingWords = [], onRate, onRecord
                         </svg>
                     </button>
                 </div>
-                <p className="text-gray-500 italic">{pron}</p>
+                <p className="text-xl text-brand-teal font-medium tracking-wide mt-2">{pron}</p>
             </div>
 
             {/* Audio Recorder for practice */}
@@ -104,39 +104,32 @@ export default function Flashcard({ card, supportingWords = [], onRate, onRecord
                                 <p className="text-xs text-gray-400 uppercase font-bold mb-2 text-center">Breakdown</p>
                                 <div className="flex flex-wrap justify-center gap-2">
                                     {supportingWords.map(w => (
-                                        <span key={w.id} className="text-xs px-2 py-1 bg-gray-100 rounded text-gray-600 border border-gray-200" title={w.translation}>
-                                            {w.lemma} ({w.translation})
-                                        </span>
+                                        <div key={w.id} className="flex flex-col items-center bg-gray-50 rounded px-2 py-1 border border-gray-100">
+                                            <span className="text-sm font-bold text-gray-800">{w.lemma}</span>
+                                            {/* Transliteration for breakdown */}
+                                            {w.pronunciation && <span className="text-xs text-brand-teal">{w.pronunciation}</span>}
+                                            <span className="text-xs text-gray-500 italic">({w.translation})</span>
+                                        </div>
                                     ))}
                                 </div>
                             </div>
                         )}
 
-                        <p className="text-sm text-gray-500 mb-3">How well did you know this?</p>
-                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 w-full">
+                        <p className="text-sm text-gray-500 mb-3">Rate yourself:</p>
+                        <div className="grid grid-cols-2 gap-4 w-full max-w-xs mx-auto">
                             <button
                                 onClick={() => handleRate(0)}
-                                className="px-3 py-2 bg-brand-orange text-white rounded hover:bg-opacity-90 transition-colors text-sm font-medium"
+                                className="px-4 py-3 bg-red-100 text-red-600 font-bold rounded-xl hover:bg-red-200 transition-colors flex flex-col items-center"
                             >
-                                Again
-                            </button>
-                            <button
-                                onClick={() => handleRate(3)}
-                                className="px-3 py-2 bg-brand-yellow text-gray-800 rounded hover:bg-opacity-90 transition-colors text-sm font-medium"
-                            >
-                                Hard
-                            </button>
-                            <button
-                                onClick={() => handleRate(4)}
-                                className="px-3 py-2 bg-brand-teal text-white rounded hover:bg-opacity-90 transition-colors text-sm font-medium"
-                            >
-                                Good
+                                <span>Again</span>
+                                <span className="text-xs font-normal opacity-75">Need practice</span>
                             </button>
                             <button
                                 onClick={() => handleRate(5)}
-                                className="px-3 py-2 bg-brand-blue text-white rounded hover:bg-opacity-90 transition-colors text-sm font-medium"
+                                className="px-4 py-3 bg-green-100 text-green-600 font-bold rounded-xl hover:bg-green-200 transition-colors flex flex-col items-center"
                             >
-                                Easy
+                                <span>Got it</span>
+                                <span className="text-xs font-normal opacity-75">Perfect</span>
                             </button>
                         </div>
                     </div>

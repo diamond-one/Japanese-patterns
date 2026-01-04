@@ -6,7 +6,7 @@ export async function GET(request) {
         return new Response('Text parameter is required', { status: 400 });
     }
 
-    const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=cs&client=tw-ob&q=${encodeURIComponent(text)}`;
+    const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=ja&client=tw-ob&q=${encodeURIComponent(text)}`;
 
     try {
         // Mock user agent to ensure Google accepts the request
