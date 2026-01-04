@@ -32,7 +32,26 @@ const AudioRecorder = forwardRef(({ onRecordingComplete, autoStart = false, nati
     const startRecording = async () => {
         try {
             const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-            mediaRecorderRef.current = new MediaRecorder(stream);
+
+            // Detect supported MIME type
+            const mimeTypes = [
+                'audio/webm;codecs=opus',
+                'audio/webm',
+                'audio/mp4',
+                'audio/aac'
+            ];
+            let selectedType = '';
+            for (const type of mimeTypes) {
+                if (MediaRecorder.isTypeSupported(type)) {
+                    selectedType = type;
+                    break;
+                }
+            }
+
+            // Fallback if nothing found (let browser decide default) or specific for Safari
+            const options = selectedType ? { mimeType: selectedType } : {};
+
+            mediaRecorderRef.current = new MediaRecorder(stream, options);
             audioChunksRef.current = [];
 
             mediaRecorderRef.current.ondataavailable = (event) => {
@@ -42,7 +61,9 @@ const AudioRecorder = forwardRef(({ onRecordingComplete, autoStart = false, nati
             };
 
             mediaRecorderRef.current.onstop = () => {
-                const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/wav' });
+                // Use the selected type or default to the recorder's actual type
+                const blobType = selectedType || mediaRecorderRef.current.mimeType || 'audio/webm';
+                const audioBlob = new Blob(audioChunksRef.current, { type: blobType });
                 const url = URL.createObjectURL(audioBlob);
                 setAudioURL(url);
                 if (onRecordingComplete) {
