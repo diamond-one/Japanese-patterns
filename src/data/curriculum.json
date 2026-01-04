@@ -814,10 +814,10 @@
             {
                 "id": "frame_4a",
                 "type": "frame",
-                "template": "Myslím si, že [CLAUSE]",
+                "template": "[CLAUSE] と思います",
                 "description": "Expressing opinion",
                 "slot_definitions": {
-                    "CLAUSE": "A full sentence"
+                    "CLAUSE": "Phrase"
                 },
                 "example_phrase_ids": [
                     "phrase_4a_1",
@@ -828,10 +828,10 @@
             {
                 "id": "frame_4b",
                 "type": "frame",
-                "template": "Musím [INFINITIVE]",
+                "template": "[VERB] 必要があります",
                 "description": "Obligation / Necessity",
                 "slot_definitions": {
-                    "INFINITIVE": "Verb"
+                    "VERB": "Action"
                 },
                 "example_phrase_ids": [
                     "phrase_4b_1",
@@ -843,116 +843,122 @@
             {
                 "id": "phrase_4a_1",
                 "type": "phrase",
-                "text": "Myslím si, že je to dobré.",
+                "text": "それはいいと思います。",
                 "translation": "I think that it is good.",
-                "audio_text": "Myslím si, že je to dobré",
+                "audio_text": "それはいいと思います",
                 "frame_id": "frame_4a",
                 "word_ids": [
-                    "word_myslim",
-                    "word_ze",
-                    "word_dobre"
+                    "word_sore_wa_ii",
+                    "word_to_omoimasu"
                 ]
             },
             {
                 "id": "phrase_4a_2",
                 "type": "phrase",
-                "text": "Myslím si, že to není pravda.",
+                "text": "それは本当ではないと思います。",
                 "translation": "I think that it is not true.",
-                "audio_text": "Myslím si, že to není pravda",
+                "audio_text": "それは本当ではないと思います",
                 "frame_id": "frame_4a",
                 "word_ids": [
-                    "word_myslim",
-                    "word_ze",
-                    "word_neni",
-                    "word_pravda"
+                    "word_sore_wa_hontou_dewa_nai",
+                    "word_to_omoimasu"
                 ]
             },
             {
                 "id": "phrase_4a_ex3",
                 "type": "phrase",
-                "text": "Myslím si, že je to problém.",
+                "text": "それは問題だと思います。",
                 "translation": "I think that is a problem.",
-                "audio_text": "Myslím si, že je to problém",
+                "audio_text": "それは問題だと思います",
                 "frame_id": "frame_4a",
                 "tags": [
                     "example"
                 ],
                 "word_ids": [
-                    "word_myslim",
-                    "word_ze"
+                    "word_sore_wa_mondai",
+                    "word_to_omoimasu"
                 ]
             },
             {
                 "id": "phrase_4b_2",
                 "type": "phrase",
-                "text": "Musím pracovat.",
+                "text": "働く必要があります。",
                 "translation": "I must work.",
-                "audio_text": "Musím pracovat",
+                "audio_text": "働く必要があります",
                 "frame_id": "frame_4b",
                 "word_ids": [
-                    "word_musim",
-                    "word_pracovat"
+                    "word_hataraku",
+                    "word_hitsuyou_ga_arimasu"
                 ]
             },
             {
                 "id": "phrase_4b_1",
                 "type": "phrase",
-                "text": "Musím jít domů.",
+                "text": "家に帰る必要があります。",
                 "translation": "I must go home.",
-                "audio_text": "Musím jít domů",
+                "audio_text": "家に帰る必要があります",
                 "frame_id": "frame_4b",
                 "word_ids": [
-                    "word_musim",
-                    "word_jit",
-                    "word_domu"
+                    "word_ie_ni_kaeru",
+                    "word_hitsuyou_ga_arimasu"
                 ]
             },
             {
                 "id": "phrase_4b_ex3",
                 "type": "phrase",
-                "text": "Musím spát.",
+                "text": "寝る必要があります。",
                 "translation": "I must sleep.",
-                "audio_text": "Musím spát",
+                "audio_text": "寝る必要があります",
                 "frame_id": "frame_4b",
                 "tags": [
                     "example"
                 ],
                 "word_ids": [
-                    "word_musim",
-                    "word_spat"
+                    "word_neru",
+                    "word_hitsuyou_ga_arimasu"
                 ]
             }
         ],
         "words": [
             {
-                "id": "word_myslim",
-                "lemma": "myslet",
+                "id": "word_to_omoimasu",
+                "lemma": "思います",
                 "translation": "think"
             },
             {
-                "id": "word_ze",
-                "lemma": "že",
-                "translation": "that"
+                "id": "word_sore_wa_ii",
+                "lemma": "それはいい",
+                "translation": "it is good"
             },
             {
-                "id": "word_dobre",
-                "lemma": "dobrý",
-                "translation": "good"
+                "id": "word_sore_wa_hontou_dewa_nai",
+                "lemma": "それは本当ではない",
+                "translation": "it is not true"
             },
             {
-                "id": "word_neni",
-                "lemma": "být",
-                "translation": "is not"
+                "id": "word_sore_wa_mondai",
+                "lemma": "それは問題",
+                "translation": "it is a problem"
             },
             {
-                "id": "word_pravda",
-                "lemma": "pravda",
-                "translation": "true/truth"
+                "id": "word_hitsuyou_ga_arimasu",
+                "lemma": "必要があります",
+                "translation": "need to/must"
             },
             {
-                "id": "word_musim",
-                "lemma": "muset",
-                "translation": "must"
+                "id": "word_hataraku",
+                "lemma": "働く",
+                "translation": "work"
+            },
+            {
+                "id": "word_ie_ni_kaeru",
+                "lemma": "家に帰る",
+                "translation": "go home"
+            },
+            {
+                "id": "word_neru",
+                "lemma": "寝る",
+                "translation": "sleep"
             }
         ]
     },
@@ -968,7 +974,7 @@
             {
                 "id": "frame_5a",
                 "type": "frame",
-                "template": "Protože [CLAUSE]",
+                "template": "[CLAUSE] から",
                 "description": "Explaining reason",
                 "slot_definitions": {
                     "CLAUSE": "Reason"
@@ -981,10 +987,10 @@
             {
                 "id": "frame_5b",
                 "type": "frame",
-                "template": "Mám rád [NOUN/INF]",
+                "template": "[NOUN] が好きです",
                 "description": "Expressing Likes",
                 "slot_definitions": {
-                    "NOUN/INF": "Object/Activity"
+                    "NOUN": "Object"
                 },
                 "example_phrase_ids": [
                     "phrase_5b_1",
@@ -994,10 +1000,10 @@
             {
                 "id": "frame_5c",
                 "type": "frame",
-                "template": "Když [CLAUSE], tak [CLAUSE]",
-                "description": "Conditionals",
+                "template": "[CLAUSE A] 時、[CLAUSE B]",
+                "description": "Conditionals (When...)",
                 "slot_definitions": {
-                    "CLAUSE": "Condition / Result"
+                    "CLAUSE A": "Condition"
                 },
                 "example_phrase_ids": [
                     "phrase_5c_1",
@@ -1009,130 +1015,128 @@
             {
                 "id": "phrase_5a_1",
                 "type": "phrase",
-                "text": "Protože pracuji.",
+                "text": "働いていますから。",
                 "translation": "Because I work.",
-                "audio_text": "Protože pracuji",
+                "audio_text": "働いていますから",
                 "frame_id": "frame_5a",
                 "word_ids": [
-                    "word_protoze",
-                    "word_pracuji"
+                    "word_hataraiteiru",
+                    "word_kara"
                 ]
             },
             {
                 "id": "phrase_5a_2",
                 "type": "phrase",
-                "text": "Protože nemám čas.",
+                "text": "時間がありませんから。",
                 "translation": "Because I don't have time.",
-                "audio_text": "Protože nemám čas",
+                "audio_text": "時間がありませんから",
                 "frame_id": "frame_5a",
                 "word_ids": [
-                    "word_protoze",
-                    "word_nemam_cas"
+                    "word_jikan_ga_arimasen",
+                    "word_kara"
                 ]
             },
             {
                 "id": "phrase_5b_1",
                 "type": "phrase",
-                "text": "Mám rád kávu.",
+                "text": "コーヒーが好きです。",
                 "translation": "I like coffee.",
-                "audio_text": "Mám rád kávu",
+                "audio_text": "コーヒーが好きです",
                 "frame_id": "frame_5b",
                 "word_ids": [
-                    "word_mam_rad",
-                    "word_kava"
+                    "word_kava",
+                    "word_suki_desu"
                 ]
             },
             {
                 "id": "phrase_5b_2",
                 "type": "phrase",
-                "text": "Nemám rád zimu.",
-                "translation": "I don't like cold weather.",
-                "audio_text": "Nemám rád zimu",
+                "text": "冬が好きではありません。",
+                "translation": "I don't like winter.",
+                "audio_text": "冬が好きではありません",
                 "frame_id": "frame_5b",
                 "word_ids": [
-                    "word_nemam_rad",
-                    "word_zima"
+                    "word_fuyu",
+                    "word_suki_dewa_arimasen"
                 ]
             },
             {
                 "id": "phrase_5c_1",
                 "type": "phrase",
-                "text": "Když mám čas, tak spím.",
+                "text": "時間がある時、寝ます。",
                 "translation": "When I have time, I sleep.",
-                "audio_text": "Když mám čas, tak spím",
+                "audio_text": "時間がある時、寝ます",
                 "frame_id": "frame_5c",
                 "word_ids": [
-                    "word_kdyz",
-                    "word_mam_cas",
-                    "word_tak",
-                    "word_spim"
+                    "word_jikan_ga_aru",
+                    "word_toki",
+                    "word_nemasu"
                 ]
             },
             {
                 "id": "phrase_5c_2",
                 "type": "phrase",
-                "text": "Když pracuji, tak nemůžu přijít.",
+                "text": "働く時、来られません。",
                 "translation": "When I work, I can't come.",
-                "audio_text": "Když pracuji, tak nemůžu přijít",
+                "audio_text": "働く時、来られません",
                 "frame_id": "frame_5c",
                 "word_ids": [
-                    "word_kdyz",
-                    "word_pracuji",
-                    "word_tak",
-                    "word_nemuzu"
+                    "word_hataraku",
+                    "word_toki",
+                    "word_koraremasen"
                 ]
             }
         ],
         "words": [
             {
-                "id": "word_protoze",
-                "lemma": "protože",
+                "id": "word_kara",
+                "lemma": "から",
                 "translation": "because"
             },
             {
-                "id": "word_mam_rad",
-                "lemma": "mít rád",
+                "id": "word_suki_desu",
+                "lemma": "好きです",
                 "translation": "like"
             },
             {
-                "id": "word_nemam_rad",
-                "lemma": "nemít rád",
-                "translation": "dislike"
+                "id": "word_suki_dewa_arimasen",
+                "lemma": "好きではありません",
+                "translation": "don't like"
             },
             {
-                "id": "word_zima",
-                "lemma": "zima",
-                "translation": "winter/cold"
+                "id": "word_fuyu",
+                "lemma": "冬",
+                "translation": "winter"
             },
             {
-                "id": "word_kdyz",
-                "lemma": "když",
-                "translation": "when/if"
+                "id": "word_toki",
+                "lemma": "時",
+                "translation": "when/time"
             },
             {
-                "id": "word_mam_cas",
-                "lemma": "mít čas",
+                "id": "word_jikan_ga_aru",
+                "lemma": "時間がある",
                 "translation": "have time"
             },
             {
-                "id": "word_nemam_cas",
-                "lemma": "nemít čas",
+                "id": "word_jikan_ga_arimasen",
+                "lemma": "時間がありません",
                 "translation": "don't have time"
             },
             {
-                "id": "word_tak",
-                "lemma": "tak",
-                "translation": "so/then"
-            },
-            {
-                "id": "word_spim",
-                "lemma": "spát",
+                "id": "word_nemasu",
+                "lemma": "寝ます",
                 "translation": "sleep"
             },
             {
-                "id": "word_nemuzu",
-                "lemma": "nemoci",
-                "translation": "cannot"
+                "id": "word_hataraiteiru",
+                "lemma": "働いています",
+                "translation": "working"
+            },
+            {
+                "id": "word_koraremasen",
+                "lemma": "来られません",
+                "translation": "cannot come"
             }
         ]
     },
@@ -1148,10 +1152,10 @@
             {
                 "id": "frame_6a",
                 "type": "frame",
-                "template": "Plánuji [INFINITIVE]",
+                "template": "[VERB] 予定です",
                 "description": "Planning",
                 "slot_definitions": {
-                    "INFINITIVE": "Action"
+                    "VERB": "Action"
                 },
                 "example_phrase_ids": [
                     "phrase_6a_1"
@@ -1160,10 +1164,10 @@
             {
                 "id": "frame_6b",
                 "type": "frame",
-                "template": "Můžu / Nemůžu [INFINITIVE]",
+                "template": "[VERB] ことができます",
                 "description": "Possibility",
                 "slot_definitions": {
-                    "INFINITIVE": "Action"
+                    "VERB": "Action"
                 },
                 "example_phrase_ids": [
                     "phrase_6b_1",
@@ -1173,7 +1177,7 @@
             {
                 "id": "frame_6c",
                 "type": "frame",
-                "template": "Možná [CLAUSE]",
+                "template": "多分 [CLAUSE]",
                 "description": "Uncertainty",
                 "slot_definitions": {
                     "CLAUSE": "Statement"
@@ -1188,93 +1192,95 @@
             {
                 "id": "phrase_6a_1",
                 "type": "phrase",
-                "text": "Plánuji pracovat zítra.",
+                "text": "明日働く予定です。",
                 "translation": "I plan to work tomorrow.",
-                "audio_text": "Plánuji pracovat zítra",
+                "audio_text": "明日働く予定です",
                 "frame_id": "frame_6a",
                 "word_ids": [
-                    "word_planuji",
-                    "word_pracovat",
-                    "word_zitra"
+                    "word_zitra",
+                    "word_hataraku",
+                    "word_yotei_desu"
                 ]
             },
             {
                 "id": "phrase_6b_1",
                 "type": "phrase",
-                "text": "Můžu přijít večer.",
+                "text": "夕方来ることができます。",
                 "translation": "I can come in the evening.",
-                "audio_text": "Můžu přijít večer",
+                "audio_text": "夕方来ることができます",
                 "frame_id": "frame_6b",
                 "word_ids": [
-                    "word_muzu",
-                    "word_prijit",
-                    "word_vecer"
+                    "word_yuugata",
+                    "word_kuru_koto_ga_dekimasu"
                 ]
             },
             {
                 "id": "phrase_6b_2",
                 "type": "phrase",
-                "text": "Nemůžu dnes přijít.",
+                "text": "今日来ることができません。",
                 "translation": "I can't come today.",
-                "audio_text": "Nemůžu dnes přijít",
+                "audio_text": "今日来ることができません",
                 "frame_id": "frame_6b",
                 "word_ids": [
-                    "word_nemuzu",
                     "word_dnes",
-                    "word_prijit"
+                    "word_kuru_koto_ga_dekimasen"
                 ]
             },
             {
                 "id": "phrase_6c_1",
                 "type": "phrase",
-                "text": "Možná budu pracovat.",
+                "text": "多分働きます。",
                 "translation": "Maybe I will work.",
-                "audio_text": "Možná budu pracovat",
+                "audio_text": "多分働きます",
                 "frame_id": "frame_6c",
                 "word_ids": [
-                    "word_mozna",
-                    "word_budu",
-                    "word_pracovat"
+                    "word_tabun",
+                    "word_hatarakimasu"
                 ]
             },
             {
                 "id": "phrase_6c_2",
                 "type": "phrase",
-                "text": "Možná nemám čas.",
+                "text": "多分時間がありません。",
                 "translation": "Maybe I don't have time.",
-                "audio_text": "Možná nemám čas",
+                "audio_text": "多分時間がありません",
                 "frame_id": "frame_6c",
                 "word_ids": [
-                    "word_mozna",
-                    "word_nemam_cas"
+                    "word_tabun",
+                    "word_jikan_ga_arimasen"
                 ]
             }
         ],
         "words": [
             {
-                "id": "word_planuji",
-                "lemma": "plánovat",
-                "translation": "plan"
+                "id": "word_yotei_desu",
+                "lemma": "予定です",
+                "translation": "plan to"
             },
             {
-                "id": "word_muzu",
-                "lemma": "moci",
-                "translation": "can"
+                "id": "word_kuru_koto_ga_dekimasu",
+                "lemma": "来ることができます",
+                "translation": "can come"
             },
             {
-                "id": "word_prijit",
-                "lemma": "přijít",
-                "translation": "come"
+                "id": "word_kuru_koto_ga_dekimasen",
+                "lemma": "来ることができません",
+                "translation": "cannot come"
             },
             {
-                "id": "word_vecer",
-                "lemma": "večer",
+                "id": "word_yuugata",
+                "lemma": "夕方",
                 "translation": "evening"
             },
             {
-                "id": "word_mozna",
-                "lemma": "možná",
+                "id": "word_tabun",
+                "lemma": "多分",
                 "translation": "maybe"
+            },
+            {
+                "id": "word_hatarakimasu",
+                "lemma": "働きます",
+                "translation": "work"
             }
         ]
     },
