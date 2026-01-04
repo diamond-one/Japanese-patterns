@@ -1296,7 +1296,7 @@
             {
                 "id": "frame_7a",
                 "type": "frame",
-                "template": "Nejdřív..., potom..., nakonec...",
+                "template": "まず..., 次に..., 最後に...",
                 "description": "Sequencing events",
                 "slot_definitions": {
                     "...": "Events"
@@ -1312,61 +1312,70 @@
             {
                 "id": "phrase_7a_1",
                 "type": "phrase",
-                "text": "Nejdřív jsem pracoval.",
+                "text": "まず働きました。",
                 "translation": "First I worked.",
-                "audio_text": "Nejdřív jsem pracoval",
+                "audio_text": "まず働きました",
                 "frame_id": "frame_7a",
                 "word_ids": [
-                    "word_nejdriv",
-                    "word_pracoval"
+                    "word_mazu",
+                    "word_hatarakimashita"
                 ]
             },
             {
                 "id": "phrase_7a_2",
                 "type": "phrase",
-                "text": "Potom jsem šel domů.",
+                "text": "次に家に帰りました。",
                 "translation": "Then I went home.",
-                "audio_text": "Potom jsem šel domů",
+                "audio_text": "次に家に帰りました",
                 "frame_id": "frame_7a",
                 "word_ids": [
-                    "word_potom",
-                    "word_sel",
-                    "word_domu"
+                    "word_tsugini",
+                    "word_ie_ni_kaerimashita"
                 ]
             },
             {
                 "id": "phrase_7a_3",
                 "type": "phrase",
-                "text": "Nakonec jsem spal.",
+                "text": "最後に寝ました。",
                 "translation": "Finally I slept.",
-                "audio_text": "Nakonec jsem spal",
+                "audio_text": "最後に寝ました",
                 "frame_id": "frame_7a",
                 "word_ids": [
-                    "word_nakonec",
-                    "word_spal"
+                    "word_saigo_ni",
+                    "word_nemashita"
                 ]
             }
         ],
         "words": [
             {
-                "id": "word_nejdriv",
-                "lemma": "nejdřív",
+                "id": "word_mazu",
+                "lemma": "まず",
                 "translation": "first"
             },
             {
-                "id": "word_potom",
-                "lemma": "potom",
+                "id": "word_tsugini",
+                "lemma": "次に",
                 "translation": "then"
             },
             {
-                "id": "word_sel",
-                "lemma": "jít",
-                "translation": "went"
+                "id": "word_ie_ni_kaerimashita",
+                "lemma": "家に帰りました",
+                "translation": "went home"
             },
             {
-                "id": "word_nakonec",
-                "lemma": "nakonec",
+                "id": "word_saigo_ni",
+                "lemma": "最後に",
                 "translation": "finally"
+            },
+            {
+                "id": "word_hatarakimashita",
+                "lemma": "働きました",
+                "translation": "worked"
+            },
+            {
+                "id": "word_nemashita",
+                "lemma": "寝ました",
+                "translation": "slept"
             }
         ]
     },
@@ -1382,7 +1391,7 @@
             {
                 "id": "frame_8a",
                 "type": "frame",
-                "template": "Mám problém s [NOUN]",
+                "template": "[NOUN] に問題があります",
                 "description": "Stating probelm",
                 "slot_definitions": {
                     "NOUN": "Issue"
@@ -1394,10 +1403,10 @@
             {
                 "id": "frame_8b",
                 "type": "frame",
-                "template": "Proto musím [INF]",
+                "template": "ですから [VERB] 必要があります",
                 "description": "Consequence",
                 "slot_definitions": {
-                    "INF": "Action"
+                    "VERB": "Action"
                 },
                 "example_phrase_ids": [
                     "phrase_8b_1"
@@ -1408,49 +1417,49 @@
             {
                 "id": "phrase_8a_1",
                 "type": "phrase",
-                "text": "Mám problém s prací.",
+                "text": "仕事に問題があります。",
                 "translation": "I have a problem with work.",
-                "audio_text": "Mám problém s prací",
+                "audio_text": "仕事に問題があります",
                 "frame_id": "frame_8a",
                 "word_ids": [
-                    "word_problem",
-                    "word_praci"
+                    "word_shigoto",
+                    "word_ni_mondai_ga_arimasu"
                 ]
             },
             {
                 "id": "phrase_8b_1",
                 "type": "phrase",
-                "text": "Proto musím pracovat doma.",
+                "text": "ですから家で働く必要があります。",
                 "translation": "Therefore I must work at home.",
-                "audio_text": "Proto musím pracovat doma",
+                "audio_text": "ですから家で働く必要があります",
                 "frame_id": "frame_8b",
                 "word_ids": [
-                    "word_proto",
-                    "word_musim",
-                    "word_doma"
+                    "word_desukara",
+                    "word_ie_de_hataraku",
+                    "word_hitsuyou_ga_arimasu"
                 ]
             }
         ],
         "words": [
             {
-                "id": "word_problem",
-                "lemma": "problém",
-                "translation": "problem"
+                "id": "word_ni_mondai_ga_arimasu",
+                "lemma": "に問題があります",
+                "translation": "have a problem with"
             },
             {
-                "id": "word_praci",
-                "lemma": "práce",
+                "id": "word_shigoto",
+                "lemma": "仕事",
                 "translation": "work"
             },
             {
-                "id": "word_proto",
-                "lemma": "proto",
+                "id": "word_desukara",
+                "lemma": "ですから",
                 "translation": "therefore"
             },
             {
-                "id": "word_doma",
-                "lemma": "doma",
-                "translation": "at home"
+                "id": "word_ie_de_hataraku",
+                "lemma": "家で働く",
+                "translation": "work at home"
             }
         ]
     },
@@ -1466,7 +1475,7 @@
             {
                 "id": "frame_9a",
                 "type": "frame",
-                "template": "Podle mě [CLAUSE]",
+                "template": "私の意見では [CLAUSE]",
                 "description": "Opinion",
                 "slot_definitions": {
                     "CLAUSE": "Opinion"
@@ -1480,21 +1489,26 @@
             {
                 "id": "phrase_9a_1",
                 "type": "phrase",
-                "text": "Podle mě je to dobré.",
+                "text": "私の意見では、それはいいです。",
                 "translation": "In my opinion, it's good.",
-                "audio_text": "Podle mě je to dobré",
+                "audio_text": "私の意見では、それはいいです",
                 "frame_id": "frame_9a",
                 "word_ids": [
-                    "word_podle_me",
-                    "word_dobre"
+                    "word_watashi_no_iken_dewa",
+                    "word_sore_wa_ii_desu"
                 ]
             }
         ],
         "words": [
             {
-                "id": "word_podle_me",
-                "lemma": "podle mě",
+                "id": "word_watashi_no_iken_dewa",
+                "lemma": "私の意見では",
                 "translation": "in my opinion"
+            },
+            {
+                "id": "word_sore_wa_ii_desu",
+                "lemma": "それはいいです",
+                "translation": "it is good"
             }
         ]
     },
@@ -1510,7 +1524,7 @@
             {
                 "id": "frame_10a",
                 "type": "frame",
-                "template": "To znamená, že [CLAUSE]",
+                "template": "それは [CLAUSE] という意味です",
                 "description": "Clarification",
                 "slot_definitions": {
                     "CLAUSE": "Explanation"
@@ -1524,21 +1538,27 @@
             {
                 "id": "phrase_10a_1",
                 "type": "phrase",
-                "text": "To znamená, že nemám čas.",
+                "text": "それは時間がありませんという意味です。",
                 "translation": "That means that I don't have time.",
-                "audio_text": "To znamená, že nemám čas",
+                "audio_text": "それは時間がありませんという意味です",
                 "frame_id": "frame_10a",
                 "word_ids": [
-                    "word_znaments",
-                    "word_nemam_cas"
+                    "word_sore_wa",
+                    "word_jikan_ga_arimasen",
+                    "word_to_iu_imi_desu"
                 ]
             }
         ],
         "words": [
             {
-                "id": "word_znaments",
-                "lemma": "znamenat",
-                "translation": "to mean"
+                "id": "word_sore_wa",
+                "lemma": "それは",
+                "translation": "that"
+            },
+            {
+                "id": "word_to_iu_imi_desu",
+                "lemma": "という意味です",
+                "translation": "means"
             }
         ]
     }
