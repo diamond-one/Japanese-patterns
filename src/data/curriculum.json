@@ -11,10 +11,10 @@
             {
                 "id": "frame_1a",
                 "type": "frame",
-                "template": "Prosím [NOUN]",
-                "description": "Polite request / Ordering (Accusative Case)",
+                "template": "[NOUN] をお願いします",
+                "description": "Polite request / Ordering",
                 "slot_definitions": {
-                    "NOUN": "Object you want (often ends in -u for feminine)"
+                    "NOUN": "Object you want"
                 },
                 "example_phrase_ids": [
                     "phrase_1a_1",
@@ -25,7 +25,7 @@
             {
                 "id": "frame_1b",
                 "type": "frame",
-                "template": "Já jsem [NAME]",
+                "template": "私は [NAME] です",
                 "description": "Introducing yourself",
                 "slot_definitions": {
                     "NAME": "Your name"
@@ -39,7 +39,7 @@
             {
                 "id": "frame_1c",
                 "type": "frame",
-                "template": "Kde je [PLACE/THING]?",
+                "template": "[PLACE/THING] はどこですか？",
                 "description": "Asking for location",
                 "slot_definitions": {
                     "PLACE/THING": "The place or object"
@@ -53,10 +53,10 @@
             {
                 "id": "frame_1d",
                 "type": "frame",
-                "template": "Mluvím trochu [LANGUAGE]",
+                "template": "[LANGUAGE] が少し話せます",
                 "description": "Language Skills",
                 "slot_definitions": {
-                    "LANGUAGE": "Language (adverbial)"
+                    "LANGUAGE": "Language"
                 },
                 "example_phrase_ids": [
                     "phrase_1d_1",
@@ -69,52 +69,52 @@
             {
                 "id": "phrase_1a_1",
                 "type": "phrase",
-                "text": "Prosím kávu.",
+                "text": "コーヒーをお願いします。",
                 "translation": "Coffee, please.",
-                "pronunciation": "Pro-seem kah-vu",
-                "audio_text": "Prosím kávu",
+                "pronunciation": "Koohii o onegaishimasu",
+                "audio_text": "コーヒーをお願いします",
                 "frame_id": "frame_1a",
                 "word_ids": [
-                    "word_prosim",
+                    "word_onegaishimasu",
                     "word_kava"
                 ]
             },
             {
                 "id": "phrase_1a_2",
                 "type": "phrase",
-                "text": "Prosím vodu.",
+                "text": "水をお願いします。",
                 "translation": "Water, please.",
-                "pronunciation": "Pro-seem vo-du",
-                "audio_text": "Prosím vodu",
+                "pronunciation": "Mizu o onegaishimasu",
+                "audio_text": "水をお願いします",
                 "frame_id": "frame_1a",
                 "word_ids": [
-                    "word_prosim",
+                    "word_onegaishimasu",
                     "word_voda"
                 ]
             },
             {
                 "id": "phrase_1a_3",
                 "type": "phrase",
-                "text": "Prosím účet.",
+                "text": "お会計をお願いします。",
                 "translation": "The bill, please.",
-                "pronunciation": "Pro-seem oo-chet",
-                "audio_text": "Prosím účet",
+                "pronunciation": "Okaikei o onegaishimasu",
+                "audio_text": "お会計をお願いします",
                 "frame_id": "frame_1a",
                 "tags": [
                     "restaurant"
                 ],
                 "word_ids": [
-                    "word_prosim",
+                    "word_onegaishimasu",
                     "word_ucet"
                 ]
             },
             {
                 "id": "phrase_1b_1",
                 "type": "phrase",
-                "text": "Já jsem Tomáš.",
-                "translation": "I am Tomáš.",
-                "pronunciation": "Yah sem Tom-ahsh",
-                "audio_text": "Já jsem Tomáš",
+                "text": "私はトーマスです。",
+                "translation": "I am Thomas.",
+                "pronunciation": "Watashi wa Toomasu desu",
+                "audio_text": "私はトーマスです",
                 "frame_id": "frame_1b",
                 "word_ids": [
                     "word_ja",
@@ -124,10 +124,10 @@
             {
                 "id": "phrase_1b_2",
                 "type": "phrase",
-                "text": "Já jsem Anna.",
+                "text": "私はアンナです。",
                 "translation": "I am Anna.",
-                "pronunciation": "Yah sem Ah-na",
-                "audio_text": "Já jsem Anna",
+                "pronunciation": "Watashi wa Anna desu",
+                "audio_text": "私はアンナです",
                 "frame_id": "frame_1b",
                 "word_ids": [
                     "word_ja",
@@ -137,10 +137,10 @@
             {
                 "id": "phrase_1b_3",
                 "type": "phrase",
-                "text": "Jsem Tomáš.",
-                "translation": "I'm Tomáš (Casual).",
-                "pronunciation": "Sem Tom-ahsh",
-                "audio_text": "Jsem Tomáš",
+                "text": "トーマスです。",
+                "translation": "I'm Thomas (Simple).",
+                "pronunciation": "Toomasu desu",
+                "audio_text": "トーマスです",
                 "frame_id": "frame_1b",
                 "tags": [
                     "variation"
@@ -152,10 +152,10 @@
             {
                 "id": "phrase_1b_ex3",
                 "type": "phrase",
-                "text": "Já jsem Petr.",
-                "translation": "I am Petr.",
-                "pronunciation": "Yah sem Pe-trr",
-                "audio_text": "Já jsem Petr",
+                "text": "私はピーターです。",
+                "translation": "I am Peter.",
+                "pronunciation": "Watashi wa Piitaa desu",
+                "audio_text": "私はピーターです",
                 "frame_id": "frame_1b",
                 "tags": [
                     "example"
@@ -168,10 +168,10 @@
             {
                 "id": "phrase_1c_1",
                 "type": "phrase",
-                "text": "Kde je toaleta?",
+                "text": "トイレはどこですか？",
                 "translation": "Where is the toilet?",
-                "pronunciation": "Gdeh yeh to-ah-le-ta",
-                "audio_text": "Kde je toaleta",
+                "pronunciation": "Toire wa doko desu ka?",
+                "audio_text": "トイレはどこですか？",
                 "frame_id": "frame_1c",
                 "word_ids": [
                     "word_kde",
@@ -182,10 +182,10 @@
             {
                 "id": "phrase_1c_2",
                 "type": "phrase",
-                "text": "Kde je metro?",
-                "translation": "Where is the metro?",
-                "pronunciation": "Gdeh yeh met-ro",
-                "audio_text": "Kde je metro",
+                "text": "地下鉄はどこですか？",
+                "translation": "Where is the subway?",
+                "pronunciation": "Chikatetsu wa doko desu ka?",
+                "audio_text": "地下鉄はどこですか？",
                 "frame_id": "frame_1c",
                 "word_ids": [
                     "word_kde",
@@ -196,10 +196,10 @@
             {
                 "id": "phrase_1c_3",
                 "type": "phrase",
-                "text": "Kde je hotel?",
+                "text": "ホテルはどこですか？",
                 "translation": "Where is the hotel?",
-                "pronunciation": "Gdeh yeh ho-tel",
-                "audio_text": "Kde je hotel",
+                "pronunciation": "Hoteru wa doko desu ka?",
+                "audio_text": "ホテルはどこですか？",
                 "frame_id": "frame_1c",
                 "word_ids": [
                     "word_kde",
@@ -210,10 +210,10 @@
             {
                 "id": "phrase_1d_1",
                 "type": "phrase",
-                "text": "Mluvím trochu česky.",
+                "text": "日本語が少し話せます。",
                 "translation": "I speak a little Japanese.",
-                "pronunciation": "Mloo-veem tro-khu ches-ki",
-                "audio_text": "Mluvím trochu česky",
+                "pronunciation": "Nihongo ga sukoshi hanasemasu",
+                "audio_text": "日本語が少し話せます",
                 "frame_id": "frame_1d",
                 "tags": [
                     "core",
@@ -228,10 +228,10 @@
             {
                 "id": "phrase_1d_ex2",
                 "type": "phrase",
-                "text": "Mluvím trochu anglicky.",
+                "text": "英語が少し話せます。",
                 "translation": "I speak a little English.",
-                "pronunciation": "Mloo-veem tro-khu an-glits-ki",
-                "audio_text": "Mluvím trochu anglicky",
+                "pronunciation": "Eigo ga sukoshi hanasemasu",
+                "audio_text": "英語が少し話せます",
                 "frame_id": "frame_1d",
                 "tags": [
                     "example"
@@ -244,10 +244,10 @@
             {
                 "id": "phrase_1d_ex3",
                 "type": "phrase",
-                "text": "Mluvím trochu německy.",
+                "text": "ドイツ語が少し話せます。",
                 "translation": "I speak a little German.",
-                "pronunciation": "Mloo-veem tro-khu nye-mets-ki",
-                "audio_text": "Mluvím trochu německy",
+                "pronunciation": "Doitsugo ga sukoshi hanasemasu",
+                "audio_text": "ドイツ語が少し話せます",
                 "frame_id": "frame_1d",
                 "tags": [
                     "example"
@@ -260,10 +260,10 @@
             {
                 "id": "phrase_1_bonus_1",
                 "type": "phrase",
-                "text": "Nerozumím.",
+                "text": "わかりません。",
                 "translation": "I don't understand.",
-                "pronunciation": "Ne-ro-zu-meem",
-                "audio_text": "Nerozumím",
+                "pronunciation": "Wakarimasen",
+                "audio_text": "わかりません",
                 "word_ids": [
                     "word_nerozumim"
                 ]
@@ -271,10 +271,10 @@
             {
                 "id": "phrase_1_bonus_2",
                 "type": "phrase",
-                "text": "Děkuji.",
+                "text": "ありがとうございます。",
                 "translation": "Thank you.",
-                "pronunciation": "Dyeh-ku-yi",
-                "audio_text": "Děkuji",
+                "pronunciation": "Arigatou gozaimasu",
+                "audio_text": "ありがとうございます",
                 "word_ids": [
                     "word_dekuji"
                 ]
@@ -282,83 +282,83 @@
         ],
         "words": [
             {
-                "id": "word_prosim",
-                "lemma": "prosím",
+                "id": "word_onegaishimasu",
+                "lemma": "お願いします",
                 "translation": "please"
             },
             {
                 "id": "word_kava",
-                "lemma": "káva",
+                "lemma": "コーヒー",
                 "translation": "coffee"
             },
             {
                 "id": "word_voda",
-                "lemma": "voda",
+                "lemma": "水",
                 "translation": "water"
             },
             {
                 "id": "word_ucet",
-                "lemma": "účet",
+                "lemma": "お会計",
                 "translation": "bill/check"
             },
             {
                 "id": "word_ja",
-                "lemma": "já",
+                "lemma": "私",
                 "translation": "I"
             },
             {
                 "id": "word_jsem",
-                "lemma": "být",
+                "lemma": "です",
                 "translation": "am (to be)"
             },
             {
                 "id": "word_kde",
-                "lemma": "kde",
+                "lemma": "どこ",
                 "translation": "where"
             },
             {
                 "id": "word_je",
-                "lemma": "být",
+                "lemma": "ですか",
                 "translation": "is (to be)"
             },
             {
                 "id": "word_toaleta",
-                "lemma": "toaleta",
+                "lemma": "トイレ",
                 "translation": "toilet"
             },
             {
                 "id": "word_metro",
-                "lemma": "metro",
+                "lemma": "地下鉄",
                 "translation": "metro"
             },
             {
                 "id": "word_hotel",
-                "lemma": "hotel",
+                "lemma": "ホテル",
                 "translation": "hotel"
             },
             {
                 "id": "word_nerozumim",
-                "lemma": "rozumět",
-                "translation": "understand (neg)"
+                "lemma": "わかる",
+                "translation": "understand"
             },
             {
                 "id": "word_dekuji",
-                "lemma": "děkovat",
+                "lemma": "ありがとう",
                 "translation": "thank"
             },
             {
                 "id": "word_mluvim",
-                "lemma": "mluvit",
+                "lemma": "話す",
                 "translation": "speak"
             },
             {
                 "id": "word_trochu",
-                "lemma": "trochu",
+                "lemma": "少し",
                 "translation": "a little"
             },
             {
                 "id": "word_cesky",
-                "lemma": "česky",
+                "lemma": "日本語",
                 "translation": "Japanese"
             }
         ]

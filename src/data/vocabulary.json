@@ -2,141 +2,141 @@
     {
         "id": "1",
         "level": 1,
-        "japanese": "Ahoj",
+        "japanese": "こんにちは",
         "english": "Hello / Hi",
-        "pronunciation": "Ah-hoy"
+        "pronunciation": "Konnichiwa"
     },
     {
         "id": "2",
         "level": 1,
-        "japanese": "Děkuji",
+        "japanese": "ありがとうございます",
         "english": "Thank you",
-        "pronunciation": "Dyeh-ku-yi"
+        "pronunciation": "Arigatou gozaimasu"
     },
     {
         "id": "3",
         "level": 1,
-        "japanese": "Prosím",
+        "japanese": "お願いします / どういたしまして",
         "english": "Please / You're welcome",
-        "pronunciation": "Pro-seem"
+        "pronunciation": "Onegaishimasu / Douitashimashite"
     },
     {
         "id": "4",
         "level": 1,
-        "japanese": "Dobré ráno",
+        "japanese": "おはようございます",
         "english": "Good morning",
-        "pronunciation": "Dob-reh rah-no"
+        "pronunciation": "Ohayou gozaimasu"
     },
     {
         "id": "5",
         "level": 1,
-        "japanese": "Ano",
+        "japanese": "はい",
         "english": "Yes",
-        "pronunciation": "Ah-no"
+        "pronunciation": "Hai"
     },
     {
         "id": "6",
         "level": 2,
-        "japanese": "Ne",
+        "japanese": "いいえ",
         "english": "No",
-        "pronunciation": "Neh"
+        "pronunciation": "Iie"
     },
     {
         "id": "7",
         "level": 2,
-        "japanese": "Na shledanou",
+        "japanese": "さようなら",
         "english": "Goodbye",
-        "pronunciation": "Nah skleh-dah-noh"
+        "pronunciation": "Sayounara"
     },
     {
         "id": "8",
         "level": 2,
-        "japanese": "Dobrou noc",
+        "japanese": "おやすみなさい",
         "english": "Good night",
-        "pronunciation": "Dob-roh nots"
+        "pronunciation": "Oyasuminasai"
     },
     {
         "id": "9",
         "level": 2,
-        "japanese": "Jak se máš?",
-        "english": "How are you? (Informal)",
-        "pronunciation": "Yak seh mah-sh"
+        "japanese": "お元気ですか？",
+        "english": "How are you? (Polite)",
+        "pronunciation": "Ogenki desu ka?"
     },
     {
         "id": "10",
         "level": 2,
-        "japanese": "Dobře",
+        "japanese": "元気です",
         "english": "Good / Well",
-        "pronunciation": "Dob-rzheh"
+        "pronunciation": "Genki desu"
     },
     {
         "id": "11",
         "level": 3,
-        "japanese": "Pivo",
+        "japanese": "ビール",
         "english": "Beer",
-        "pronunciation": "Pi-vo"
+        "pronunciation": "Biiru"
     },
     {
         "id": "12",
         "level": 3,
-        "japanese": "Voda",
+        "japanese": "水",
         "english": "Water",
-        "pronunciation": "Vo-da"
+        "pronunciation": "Mizu"
     },
     {
         "id": "13",
         "level": 3,
-        "japanese": "Káva",
+        "japanese": "コーヒー",
         "english": "Coffee",
-        "pronunciation": "Kah-va"
+        "pronunciation": "Koohii"
     },
     {
         "id": "14",
         "level": 3,
-        "japanese": "Účet, prosím",
+        "japanese": "お会計、お願いします",
         "english": "The bill, please",
-        "pronunciation": "Oo-chet pro-seem"
+        "pronunciation": "Okaikei, onegaishimasu"
     },
     {
         "id": "15",
         "level": 3,
-        "japanese": "Kolik to stojí?",
+        "japanese": "いくらですか？",
         "english": "How much does it cost?",
-        "pronunciation": "Ko-lik to stoy-ee"
+        "pronunciation": "Ikura desu ka?"
     },
     {
         "id": "16",
         "level": 4,
-        "japanese": "Nerozumím",
+        "japanese": "わかりません",
         "english": "I don't understand",
-        "pronunciation": "Ne-ro-zu-meem"
+        "pronunciation": "Wakarimasen"
     },
     {
         "id": "17",
         "level": 4,
-        "japanese": "Mluvíte anglicky?",
+        "japanese": "英語を話せますか？",
         "english": "Do you speak English?",
-        "pronunciation": "Mlu-vee-te ang-lits-ki"
+        "pronunciation": "Eigo o hanasemasu ka?"
     },
     {
         "id": "18",
         "level": 4,
-        "japanese": "Promiňte",
+        "japanese": "すみません",
         "english": "Excuse me / Sorry",
-        "pronunciation": "Pro-min-te"
+        "pronunciation": "Sumimasen"
     },
     {
         "id": "19",
         "level": 4,
-        "japanese": "Kde je toaleta?",
+        "japanese": "トイレはどこですか？",
         "english": "Where is the toilet?",
-        "pronunciation": "Kdeh yeh to-ah-le-ta"
+        "pronunciation": "Toire wa doko desu ka?"
     },
     {
         "id": "20",
         "level": 4,
-        "japanese": "Jmenuji se...",
+        "japanese": "私の名前は…です",
         "english": "My name is...",
-        "pronunciation": "Ymen-u-yi seh"
+        "pronunciation": "Watashi no namae wa... desu"
     }
 ]
