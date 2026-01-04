@@ -11,14 +11,27 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const viewport = {
+  themeColor: "#3F9AAE",
+  width: "device-width",
+  initialScale: 1,
+  minimumScale: 1,
+  userScalable: false,
+};
+
 export const metadata = {
-  title: "Japanese Learning App",
-  description: "Learn Japanese patterns",
+  title: "Japanese Patterns",
+  description: "Learn Japanese through spoken patterns.",
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/icons/icon-v3-192.png",
+    apple: "/icons/icon-v3-192.png",
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>

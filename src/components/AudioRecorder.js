@@ -1,12 +1,33 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect, forwardRef, useImperativeHandle } from 'react';
 
-export default function AudioRecorder({ onRecordingComplete }) {
+const AudioRecorder = forwardRef(({ onRecordingComplete, autoStart = false, nativeAudioSrc = null }, ref) => {
     const [isRecording, setIsRecording] = useState(false);
     const [audioURL, setAudioURL] = useState(null);
     const mediaRecorderRef = useRef(null);
     const audioChunksRef = useRef([]);
+    const audioRef = useRef(null);
+
+    useEffect(() => {
+        if (autoStart) {
+            startRecording();
+        }
+    }, [autoStart]);
+
+    useImperativeHandle(ref, () => ({
+        stopRecording: () => {
+            if (isRecording) {
+                stopRecording();
+            }
+        },
+        stopPlayback: () => {
+            if (audioRef.current) {
+                audioRef.current.pause();
+                audioRef.current.currentTime = 0;
+            }
+        }
+    }));
 
     const startRecording = async () => {
         try {
@@ -52,14 +73,14 @@ export default function AudioRecorder({ onRecordingComplete }) {
                 {!isRecording ? (
                     <button
                         onClick={startRecording}
-                        className="px-4 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
+                        className="px-4 py-2 bg-brand-orange text-white rounded-full hover:bg-opacity-90 transition-colors"
                     >
                         Record
                     </button>
                 ) : (
                     <button
                         onClick={stopRecording}
-                        className="px-4 py-2 bg-gray-800 text-white rounded-full hover:bg-gray-900 transition-colors animate-pulse"
+                        className="px-4 py-2 bg-brand-blue text-white rounded-full hover:bg-opacity-90 transition-colors animate-pulse"
                     >
                         Stop
                     </button>
@@ -67,10 +88,26 @@ export default function AudioRecorder({ onRecordingComplete }) {
             </div>
 
             {audioURL && (
-                <div className="w-full flex justify-center">
-                    <audio controls src={audioURL} className="w-full max-w-xs" />
+                <div className="w-full flex flex-col items-center gap-2">
+                    <audio
+                        ref={audioRef}
+                        controls
+                        autoPlay
+                        src={audioURL}
+                        className="w-full max-w-xs"
+                        onEnded={() => {
+                            if (nativeAudioSrc) {
+                                // Play native comparison
+                                const native = new Audio(nativeAudioSrc);
+                                native.play().catch(console.error);
+                            }
+                        }}
+                    />
+                    {nativeAudioSrc && <p className="text-xs text-brand-blue font-bold">Auto-Compare Active</p>}
                 </div>
             )}
         </div>
     );
-}
+});
+
+export default AudioRecorder;

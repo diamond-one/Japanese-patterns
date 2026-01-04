@@ -1,6 +1,4 @@
-# Japanese Learning App
-
-This is a [Next.js](https://nextjs.org) project adapted for learning Japanese patterns.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
