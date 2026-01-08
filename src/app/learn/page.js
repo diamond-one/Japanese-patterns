@@ -579,12 +579,14 @@ export default function LearnPage() {
                                     )}
 
                                     {/* 5. Fast Track Button (Gauntlet) */}
-                                    {(unlockEligible === 'stable_block' || unlockEligible === 'eligible') && (
+                                    {(unlockEligible === 'stable_block' || unlockEligible === 'eligible' || levelStats.readyForChallenge) && (
                                         <button
                                             onClick={() => setShowFastTrack(true)}
-                                            className="mt-4 px-4 py-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-bold rounded-lg shadow-md hover:scale-105 transition-transform flex items-center justify-center gap-2"
+                                            className="w-full py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-lg shadow-lg hover:scale-105 transition-transform animate-pulse flex items-center justify-center gap-2 mt-4"
                                         >
-                                            <span>⚡ Fast Track</span>
+                                            <span>⚠️</span>
+                                            <span>GAUNTLET: SKIP AHEAD</span>
+                                            <span>⚠️</span>
                                         </button>
                                     )}
 
